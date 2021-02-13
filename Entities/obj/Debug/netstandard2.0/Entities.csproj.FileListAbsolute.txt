@@ -1,0 +1,12 @@
+C:\Users\Furka\source\repos\ReCapProjectEntityFramework\Entities\bin\Debug\netstandard2.0\Entities.deps.json
+C:\Users\Furka\source\repos\ReCapProjectEntityFramework\Entities\bin\Debug\netstandard2.0\Entities.dll
+C:\Users\Furka\source\repos\ReCapProjectEntityFramework\Entities\bin\Debug\netstandard2.0\Entities.pdb
+C:\Users\Furka\source\repos\ReCapProjectEntityFramework\Entities\obj\Debug\netstandard2.0\Entities.csprojAssemblyReference.cache
+C:\Users\Furka\source\repos\ReCapProjectEntityFramework\Entities\obj\Debug\netstandard2.0\Entities.AssemblyInfoInputs.cache
+C:\Users\Furka\source\repos\ReCapProjectEntityFramework\Entities\obj\Debug\netstandard2.0\Entities.AssemblyInfo.cs
+C:\Users\Furka\source\repos\ReCapProjectEntityFramework\Entities\obj\Debug\netstandard2.0\Entities.csproj.CoreCompileInputs.cache
+C:\Users\Furka\source\repos\ReCapProjectEntityFramework\Entities\obj\Debug\netstandard2.0\Entities.dll
+C:\Users\Furka\source\repos\ReCapProjectEntityFramework\Entities\obj\Debug\netstandard2.0\Entities.pdb
+C:\Users\Furka\source\repos\ReCapProjectEntityFramework\Entities\bin\Debug\netstandard2.0\Core.dll
+C:\Users\Furka\source\repos\ReCapProjectEntityFramework\Entities\bin\Debug\netstandard2.0\Core.pdb
+C:\Users\Furka\source\repos\ReCapProjectEntityFramework\Entities\obj\Debug\netstandard2.0\Entities.csproj.CopyComplete

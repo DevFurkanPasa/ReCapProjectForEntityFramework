@@ -1,0 +1,14 @@
+C:\Users\Furka\source\repos\ReCapProjectEntityFramework\DataAccess\bin\Debug\netstandard2.0\Entities.dll
+C:\Users\Furka\source\repos\ReCapProjectEntityFramework\DataAccess\obj\Debug\netstandard2.0\DataAccess.csprojAssemblyReference.cache
+C:\Users\Furka\source\repos\ReCapProjectEntityFramework\DataAccess\obj\Debug\netstandard2.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\Furka\source\repos\ReCapProjectEntityFramework\DataAccess\obj\Debug\netstandard2.0\DataAccess.AssemblyInfo.cs
+C:\Users\Furka\source\repos\ReCapProjectEntityFramework\DataAccess\bin\Debug\netstandard2.0\DataAccess.deps.json
+C:\Users\Furka\source\repos\ReCapProjectEntityFramework\DataAccess\bin\Debug\netstandard2.0\DataAccess.dll
+C:\Users\Furka\source\repos\ReCapProjectEntityFramework\DataAccess\bin\Debug\netstandard2.0\DataAccess.pdb
+C:\Users\Furka\source\repos\ReCapProjectEntityFramework\DataAccess\bin\Debug\netstandard2.0\Entities.pdb
+C:\Users\Furka\source\repos\ReCapProjectEntityFramework\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Furka\source\repos\ReCapProjectEntityFramework\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CopyComplete
+C:\Users\Furka\source\repos\ReCapProjectEntityFramework\DataAccess\obj\Debug\netstandard2.0\DataAccess.dll
+C:\Users\Furka\source\repos\ReCapProjectEntityFramework\DataAccess\obj\Debug\netstandard2.0\DataAccess.pdb
+C:\Users\Furka\source\repos\ReCapProjectEntityFramework\DataAccess\bin\Debug\netstandard2.0\Core.dll
+C:\Users\Furka\source\repos\ReCapProjectEntityFramework\DataAccess\bin\Debug\netstandard2.0\Core.pdb
