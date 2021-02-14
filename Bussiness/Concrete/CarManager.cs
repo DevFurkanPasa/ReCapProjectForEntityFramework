@@ -1,4 +1,7 @@
 ﻿using Bussiness.Abstract;
+using Bussiness.Constans;
+using Core.Utilities.Results.Abstract;
+using Core.Utilities.Results.Concrete;
 using DataAccess.Abstract;
 using Entities.Concrete;
 using Entities.DTOs;
@@ -17,29 +20,36 @@ namespace Bussiness.Concrete
             _carDal = carDal;
         }
 
-        public void Add(Car entity)
+        public IResult Add(Car entity)
         {
             _carDal.Add(entity);
+            return new SuccessResult(Messages.AddedCar);
         }
 
-        public void Delete(Car entity)
+        public IResult Delete(Car entity)
         {
             _carDal.Delete(entity);
+            return new SuccessResult(Messages.DeletedCar);
         }
 
-        public List<Car> GetAll()
+        public IDataResult<List<Car>> GetAll()
         {
-            return _carDal.GetAll();
+            return new SuccessDataResult<List<Car>>(_carDal.GetAll());
         }
 
-        public List<CarDetailDto> GetCarDetail()
+        public IDataResult<List<CarDetailDto>> GetCarDetail()
         {
+            return new DataResult<List<CarDetailDto>>(_carDal.carDetails(),true);
+        }
+
+        public List<CarDetailDto> GetCarDetail1()
+        {            
             return _carDal.carDetails();
         }
 
-        public void Update(Car entity)
+        public IResult Update(Car entity)
         {
-            _carDal.Update(entity);
+            return new SuccessResult(Messages.UpdatedCar);
         }
     }
 }

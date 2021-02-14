@@ -1,4 +1,5 @@
-﻿using Entities.Concrete;
+﻿using Core.Utilities.Results.Abstract;
+using Entities.Concrete;
 using Entities.DTOs;
 using System;
 using System.Collections.Generic;
@@ -8,6 +9,6 @@ namespace Bussiness.Abstract
 {
     public interface ICarService : IBaseService<Car>
     {
-        List<CarDetailDto> GetCarDetail();
+        IDataResult<List<CarDetailDto>> GetCarDetail();
     }
 }
