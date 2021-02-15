@@ -37,14 +37,14 @@ namespace Bussiness.Concrete
             return new SuccessDataResult<List<Car>>(_carDal.GetAll());
         }
 
-        public IDataResult<List<CarDetailDto>> GetCarDetail()
+        public IDataResult<Car> GetById(int id)
         {
-            return new DataResult<List<CarDetailDto>>(_carDal.carDetails(),true);
+            return new SuccessDataResult<Car>(_carDal.Get(c=>c.Id == id));
         }
 
-        public List<CarDetailDto> GetCarDetail1()
-        {            
-            return _carDal.carDetails();
+        public IDataResult<List<CarDetailDto>> GetCarDetail()
+        {
+            return new SuccessDataResult<List<CarDetailDto>>(_carDal.carDetails());
         }
 
         public IResult Update(Car entity)
