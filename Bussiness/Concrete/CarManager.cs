@@ -1,10 +1,14 @@
 ﻿using Bussiness.Abstract;
 using Bussiness.Constans;
+using Bussiness.ValidationRules.FludentValidation;
+using Core.Aspects.Autofac.Validation;
+using Core.CrossCuttingConserns.Validation;
 using Core.Utilities.Results.Abstract;
 using Core.Utilities.Results.Concrete;
 using DataAccess.Abstract;
 using Entities.Concrete;
 using Entities.DTOs;
+using FluentValidation;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -20,8 +24,10 @@ namespace Bussiness.Concrete
             _carDal = carDal;
         }
 
+        [ValidationAspect(typeof(CarValidator))]
         public IResult Add(Car entity)
         {
+            ValidationTool.Validate(new CarValidator(), entity);
             _carDal.Add(entity);
             return new SuccessResult(Messages.AddedCar);
         }
